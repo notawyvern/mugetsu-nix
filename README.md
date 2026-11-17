@@ -1,17 +1,12 @@
 # Mugetsu for Nix
 
 - [Support](#about)
-- [Limits](#limits)
 - [Testing](#testing)
 - [Install](#install)
 
 ## About
 
 Mugetsu is an open source Ruffle fork for AQWorlds. Only Linux x86_64 is currently supported.
-
-## Limits
-
-Toggling graphics while running is as of now not possible. If you need OpenGL, pass the **-g gl** flag on command line.
 
 ## Testing
 
