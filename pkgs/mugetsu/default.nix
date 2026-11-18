@@ -16,7 +16,7 @@
 }:
 
 let
-  version = "2.0.0";
+  version = "2.0.1";
   pname = "Mugetsu";
 in
 stdenvNoCC.mkDerivation {
@@ -24,7 +24,7 @@ stdenvNoCC.mkDerivation {
 
   src = fetchurl {
     url = "https://github.com/mugetsu-aqw/mugetsu/releases/download/v${version}/Mugetsu-${version}-linux.tar.gz";
-    hash = "sha256-8XsnbtKg7dR+6r34m+JE204ymfhZZrxJ5F6x7X59zcA=";
+    hash = "sha256-xZkGslTPW/C/Npuge9smTIXrrLnRocpFbbdtsypE8ro=";
   };
 
   nativeBuildInputs = [
